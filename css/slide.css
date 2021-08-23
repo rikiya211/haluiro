@@ -34,8 +34,9 @@
 ---------------------------------------------------------------------------*/
 #mainimg {
 	clear: left;
-	width: 800px;
+	width: 40%;
 	position: relative;
+	top: 65px;
 	margin: 0 auto;
 }
 

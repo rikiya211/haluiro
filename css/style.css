@@ -36,18 +36,29 @@ table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 video {max-width: 100%;}
 iframe {width: 100%;}
 
-.title {
-	width: 197px;
+.title1 {
+	width: 13%;
     border-radius: 30px;
     margin-left: 20px;
     margin-top: 13px;
 }
+
+.title {
+    width: 24%;
+    border-radius: 30px;
+    margin-left: 3%;
+    margin-top: 13px;
+    position: absolute;
+    top: 13%;
+    left: -1%;
+}
+
 #headermenu {
 	position: absolute;
 	color: #ff8a00;	/*文字色*/
 	background: #fff;	/*背景色*/
 	right: 2%;		/*headerのinnerに対して右からの配置指定*/
-	top: 9px;		/*headerのinnerに対して上からの配置指定*/
+	top: 10px;		/*headerのinnerに対して上からの配置指定*/
 	border-radius: 5px;
     width: 200px;
     padding: 2px 16px;
@@ -110,6 +121,7 @@ header #logo {
 /*メニューブロック*/
 #menubar {
 	position: relative;z-index: 10;
+	top:73px;
 	text-align: center;	/*文字を中央に*/
 	background: #fff;	/*背景色*/
 	border-top: 1px solid #ccc;		/*上の線の幅、線種、色*/
@@ -267,6 +279,32 @@ body.is-fixed-menu #menubar ul.ddmenu li a {
 	margin-top: 100px;
 }
 
+/*Access*/
+.access {
+	font-size: 18px;
+}
+
+.access1 {
+	
+}
+
+.access2 {
+	position: relative;
+}
+
+.houjin1{
+	width: 30%;
+	padding-left: 3%;
+    margin-top: -23px;
+}
+/*top: 94.5%;
+left: 77%*/
+.houjin{
+	width: 30%;
+    position: absolute;
+    top: 94.5%;
+    left: 34%;
+}
 /*list（worksページで使っている横長ブロック）
 ---------------------------------------------------------------------------*/
 /*ボックスの設定*/
